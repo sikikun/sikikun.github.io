@@ -216,7 +216,7 @@ h6 {
   padding: 0;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Noto Serif SC', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Noto Sans SC', 'Noto Serif SC', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 h2,
 h3,
@@ -226,51 +226,51 @@ h6 {
   margin: 20px 0 15px;
 }
 h1 {
-  font-size: 22px;
+  font-size: 30px;
 }
 @media (max-width: 767px) {
   h1 {
-    font-size: 18px;
+    font-size: 26px;
   }
 }
 h2 {
-  font-size: 20px;
+  font-size: 28px;
 }
 @media (max-width: 767px) {
   h2 {
-    font-size: 16px;
+    font-size: 24px;
   }
 }
 h3 {
-  font-size: 18px;
+  font-size: 26px;
 }
 @media (max-width: 767px) {
   h3 {
-    font-size: 14px;
+    font-size: 22px;
   }
 }
 h4 {
-  font-size: 16px;
+  font-size: 24px;
 }
 @media (max-width: 767px) {
   h4 {
-    font-size: 12px;
+    font-size: 20px;
   }
 }
 h5 {
-  font-size: 14px;
+  font-size: 22px;
 }
 @media (max-width: 767px) {
   h5 {
-    font-size: 10px;
+    font-size: 18px;
   }
 }
 h6 {
-  font-size: 12px;
+  font-size: 20px;
 }
 @media (max-width: 767px) {
   h6 {
-    font-size: 8px;
+    font-size: 16px;
   }
 }
 p {
@@ -1138,14 +1138,12 @@ pre .javascript .function {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .back-to-top {
-    right: 20px;
-    opacity: 0.8;
+    display: none !important;
   }
 }
 @media (max-width: 767px) {
   .back-to-top {
-    right: 20px;
-    opacity: 0.8;
+    display: none !important;
   }
 }
 .back-to-top.back-to-top-on {
@@ -1193,7 +1191,7 @@ pre .javascript .function {
   line-height: 36px;
   font-size: 24px;
   font-weight: normal;
-  font-family: 'Noto Serif SC', 'Noto Serif SC', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Noto Sans SC', 'Noto Serif SC', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1739,6 +1737,16 @@ pre .javascript .function {
 .sidebar a:hover {
   color: #eee;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  .sidebar {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .sidebar {
+    display: none !important;
+  }
+}
 .sidebar-inner {
   position: relative;
   padding: 20px 10px;
@@ -1767,14 +1775,12 @@ pre .javascript .function {
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar-toggle {
-    right: 20px;
-    opacity: 0.8;
+    display: none !important;
   }
 }
 @media (max-width: 767px) {
   .sidebar-toggle {
-    right: 20px;
-    opacity: 0.8;
+    display: none !important;
   }
 }
 .sidebar-toggle-line {
@@ -1877,7 +1883,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffc3ab;
+  background: #cf7fff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1996,32 +2002,6 @@ pre .javascript .function {
 }
 .post-toc .nav .active-current > a:hover {
   color: #fc6423;
-}
-.sidebar-active #sidebar-dimmer {
-  opacity: 0.7;
-  -webkit-transform: translateX(-150%);
-  -webkit-transform: translateX(-150%);
-  -moz-transform: translateX(-150%);
-  -ms-transform: translateX(-150%);
-  -o-transform: translateX(-150%);
-  transform: translateX(-150%);
-  transition: opacity 0.2s;
-}
-#sidebar-dimmer {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 100%;
-  width: 200%;
-  height: 100%;
-  background: #000;
-  opacity: 0;
-  transition: opacity 0.2s, transform 0s 0.2s;
-}
-@media (max-width: 767px) {
-  #sidebar-dimmer {
-    display: block;
-  }
 }
 .footer {
   font-size: 14px;
