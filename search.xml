@@ -5,8 +5,8 @@
     
     <entry>
       <title>HexoTagPlugin的使用技巧</title>
-      <link href="/2020/05/22/post/"/>
-      <url>/2020/05/22/post/</url>
+      <link href="/2020/05/22/hexo_tag_plugin/"/>
+      <url>/2020/05/22/hexo_tag_plugin/</url>
       
         <content type="html"><![CDATA[<h3 id="看原文档md"><a href="#看原文档md" class="headerlink" title="看原文档md"></a>看原文档md</h3><a id="more"></a><pre><code>阅读全文&lt;!-- more --&gt;</code></pre><h3 id="tag-plugin"><a href="#tag-plugin" class="headerlink" title="tag plugin"></a>tag plugin</h3><ul><li><blockquote class="blockquote-center"><p>世间所有的相遇，都是久别重逢</p></blockquote><p>使文本居中引用-Centered Quote</p></li><li><div class="note default"><p>default 提示块标签</p></div><div class="note primary"><p>primary 提示块标签</p></div> <div class="note success"><p>success 提示块标签</p></div><div class="note info"><p>info 提示块标签</p></div><div class="note warning"><p>warning 提示块标签</p></div> <div class="note danger"><p>danger 提示块标签</p></div><p>提示块-Note</p></li><li><span class="label default">默认</span> <span class="label primary">主要</span> <span class="label success">成功</span> <span class="label info">信息</span> <span class="label warning">警告</span> <span class="label danger">危险</span> <span class="label success">这是成功的信息</span><p>标签-Label</p></li><li><div class="tabs" id="tab"><ul class="nav-tabs"><li class="tab active"><a href="#tab-1">选项卡1</a></li><li class="tab"><a href="#tab-2">选项卡2</a></li><li class="tab"><a href="#tab-3">A</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><p><strong>选项卡 1</strong> </p></div><div class="tab-pane" id="tab-2"><p><strong>选项卡 2</strong></p></div><div class="tab-pane" id="tab-3"><p><strong>选项卡 3</strong> 名字为A</p></div></div></div><p>选项卡-Tabs</p></li></ul><ul><li>% button url, text, icon [class], [title] % ###左右加花括号     <ul><li>url 绝对/相对URL</li><li>text 按钮文字</li><li>icon FontAwesome图标名称</li><li>clasee FontAwesome 类：fa-fw | fa-lg | fa-2x | fa-3x | fa-4x | fa-5X ，可选参数</li><li>title 鼠标悬停时的工具提示<div><a class="btn" href="http://www.yqy1997.top/ " title="go back to main page"><i class="fa fa-home fa-fw"></i>首页</a></div>/n 例子<div class="text-center"><div><a class="btn" href="http://www.yqy1997.top/ " title="这是小丁的个人博客首页"><i class="fa fa-home fa-fw"></i>首页</a> <a class="btn" href="http://www.yqy1997.top/ " title="豆瓣电影"><i class="fa fa-film fa-fw"></i>观影</a> <a class="btn" href="http://www.yqy1997.top/ " title="豆瓣读书"><i class="fa fa-book fa-fw"></i>阅读</a></div></div>/n 居中</li></ul></li></ul>]]></content>
       
@@ -35,31 +35,6 @@
       <categories>
           
           <category> testing </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>title</title>
-      <link href="/2020/05/22/title/"/>
-      <url>/2020/05/22/title/</url>
-      
-        <content type="html"><![CDATA[<h1 id="This-is-a-test"><a href="#This-is-a-test" class="headerlink" title="This is a test"></a>This is a test</h1><h2 id="test-how-to-upload"><a href="#test-how-to-upload" class="headerlink" title="test how to upload"></a>test how to upload</h2><h3 id="interesting"><a href="#interesting" class="headerlink" title="interesting"></a>interesting</h3><h1 id="Chapter-2"><a href="#Chapter-2" class="headerlink" title="Chapter 2"></a>Chapter 2</h1><h1 id="chapter-3"><a href="#chapter-3" class="headerlink" title="chapter 3"></a>chapter 3</h1><h2 id="测试中文"><a href="#测试中文" class="headerlink" title="测试中文"></a>测试中文</h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> md </category>
           
       </categories>
       
