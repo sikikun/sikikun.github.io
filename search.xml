@@ -4,44 +4,25 @@
   
     
     <entry>
-      <title>HexoTagPlugin的使用技巧</title>
-      <link href="/hexo_tag_plugin.html"/>
-      <url>/hexo_tag_plugin.html</url>
+      <title>Markdown相关知识</title>
+      <link href="/markdown.html"/>
+      <url>/markdown.html</url>
       
-        <content type="html"><![CDATA[<!-- build time:Sat May 23 2020 12:14:34 GMT+0800 (GMT+08:00) --><h3 id="看原文档md"><a href="#看原文档md" class="headerlink" title="看原文档md"></a>看原文档md</h3><a id="more"></a><pre><code>阅读全文&lt;!-- more --&gt;</code></pre><h3 id="tag-plugin"><a href="#tag-plugin" class="headerlink" title="tag plugin"></a>tag plugin</h3><ul><li><blockquote class="blockquote-center"><p>世间所有的相遇，都是久别重逢</p></blockquote><p>使文本居中引用-Centered Quote</p></li><li><div class="note default"><p>default 提示块标签</p></div><div class="note primary"><p>primary 提示块标签</p></div><div class="note success"><p>success 提示块标签</p></div><div class="note info"><p>info 提示块标签</p></div><div class="note warning"><p>warning 提示块标签</p></div><div class="note danger"><p>danger 提示块标签</p></div><p>提示块-Note</p></li><li><span class="label default">默认</span> <span class="label primary">主要</span> <span class="label success">成功</span> <span class="label info">信息</span> <span class="label warning">警告</span> <span class="label danger">危险</span> <span class="label success">这是成功的信息</span><p>标签-Label</p></li><li><div class="tabs" id="tab"><ul class="nav-tabs"><li class="tab active"><a href="#tab-1">选项卡1</a></li><li class="tab"><a href="#tab-2">选项卡2</a></li><li class="tab"><a href="#tab-3">A</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><p><strong>选项卡 1</strong></p></div><div class="tab-pane" id="tab-2"><p><strong>选项卡 2</strong></p></div><div class="tab-pane" id="tab-3"><p><strong>选项卡 3</strong> 名字为A</p></div></div></div><p>选项卡-Tabs</p></li></ul><ul><li>% button url, text, icon [class], [title] % ###左右加花括号<ul><li>url 绝对/相对URL</li><li>text 按钮文字</li><li>icon FontAwesome图标名称</li><li>clasee FontAwesome 类：fa-fw | fa-lg | fa-2x | fa-3x | fa-4x | fa-5X ，可选参数</li><li>title 鼠标悬停时的工具提示<div><a class="btn" href="http://www.yqy1997.top/" title="go back to main page"><i class="fa fa-home fa-fw"></i>首页</a></div>/n 例子<div class="text-center"><div><a class="btn" href="http://www.yqy1997.top/" title="这是小丁的个人博客首页"><i class="fa fa-home fa-fw"></i>首页</a> <a class="btn" href="http://www.yqy1997.top/" title="豆瓣电影"><i class="fa fa-film fa-fw"></i>观影</a> <a class="btn" href="http://www.yqy1997.top/" title="豆瓣读书"><i class="fa fa-book fa-fw"></i>阅读</a></div></div>/n 居中</li></ul></li></ul><!-- rebuild by neat -->]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> tag </tag>
-            
-            <tag> another tag </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>title</title>
-      <link href="/wtf.html"/>
-      <url>/wtf.html</url>
-      
-        <content type="html"><![CDATA[<!-- build time:Sat May 23 2020 12:14:34 GMT+0800 (GMT+08:00) --><p>$$<br>\sum \frac{3}{5}<br>$$</p><p><strong>asdfkljg</strong></p><h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><pre><code>def adef bdef c</code></pre><a id="more"></a><h2 id="http-latex-codecogs-com-eqneditor-editor-php-在线Latex编辑器"><a href="#http-latex-codecogs-com-eqneditor-editor-php-在线Latex编辑器" class="headerlink" title="http://latex.codecogs.com/eqneditor/editor.php 在线Latex编辑器"></a><a href="http://latex.codecogs.com/eqneditor/editor.php" target="_blank" rel="noopener">http://latex.codecogs.com/eqneditor/editor.php</a> <strong>在线Latex编辑器</strong></h2><p><img src="https://pic.downk.cc/item/5ec779d6c2a9a83be57da9bf.gif" alt=""></p><h2 id="https-www-superbed-cn-聚合图床"><a href="#https-www-superbed-cn-聚合图床" class="headerlink" title="https://www.superbed.cn/  聚合图床"></a><a href="https://www.superbed.cn/" target="_blank" rel="noopener">https://www.superbed.cn/</a> <strong>聚合图床</strong></h2><h2 id="https-www-tablesgenerator-com-markdown-tables-markdown表格生成"><a href="#https-www-tablesgenerator-com-markdown-tables-markdown表格生成" class="headerlink" title="https://www.tablesgenerator.com/markdown_tables markdown表格生成"></a><a href="https://www.tablesgenerator.com/markdown_tables" target="_blank" rel="noopener">https://www.tablesgenerator.com/markdown_tables</a> markdown表格生成</h2><!-- rebuild by neat -->]]></content>
+        <content type="html"><![CDATA[<!-- build time:Sat May 23 2020 16:37:58 GMT+0800 (GMT+08:00) --><blockquote class="blockquote-center"><p>这篇文章主要介绍了markdown的相关语法和几个常用网站</p></blockquote><a id="more"></a><hr><h1 id="什么是Markdown"><a href="#什么是Markdown" class="headerlink" title="什么是Markdown"></a>什么是Markdown</h1><ul><li>Markdown是一种轻量化标记语言，它允许人们使用易读易写的纯文本格式编写文档。</li><li>用其编写的文档可以导出HTML、Word、图像和PDF等多种格式文档。</li><li>后缀名为.md/.markdown</li></ul><hr><h1 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a>Markdown语法</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>Markdown标题有两种格式</p><pre><code>// = 和 - 标记语法格式一级标题=======二级标题-------// 事实上只需要一个 = / - 即可实现标题功能</code></pre><hr><pre><code>//使用 # 可以表示 1-6 级标题# 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题</code></pre><h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><p>在一行中使用三个以上的星号、减号、下划线可以建立分割线</p><pre><code>*****-----_____//中间允许增加空格_ _ _  ___*   * *  ***</code></pre><h2 id="字操作"><a href="#字操作" class="headerlink" title="字操作"></a>字操作</h2><h3 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h3><p>Markdown 可以使用以下几种格式</p><pre><code>*斜体文本***粗体文本*****粗斜体文本***/*上述的 * 可以用 _ 代替但是由于LaTex也需要 _ 所以一般推荐能不用就不用在博客搭建过程中我已对_进行替换*/_斜体文本___粗体文本_____粗斜体文本___</code></pre><h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><p>段落文字添加删除线只需要在文字两端加入两个波浪线即可</p><pre><code>~~增加删除线的文字~~</code></pre><h3 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h3><p><u>下划线</u>通过HTML的标签实现</p><pre><code>&lt;u&gt;增加下划线的文本&lt;/u&gt;</code></pre><h2 id="Markdown-列表"><a href="#Markdown-列表" class="headerlink" title="Markdown 列表"></a>Markdown 列表</h2><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p>无序列表使用 * + - 作为列表标记</p><pre><code>* 第一项* 第二项+ 第一项+ 第二项- 第一项- 第二项</code></pre><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><p>有序列表使用数字加上.号表示</p><pre><code>1.第一项2.第二项3.第三项</code></pre><h3 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h3><p>嵌套只需要在子列表的选项添加四个空格即可</p><pre><code>1.第一项    - 嵌套无序第一元素    - 嵌套无序第二元素2.第二项    - 嵌套无序第一元素    - 嵌套无序第二元素</code></pre><h2 id="区块"><a href="#区块" class="headerlink" title="区块"></a>区块</h2><p>区块引用时在段落开头使用 &gt; 符号</p><pre><code>&gt; 区块引用&gt; 后接空格&gt; 引用别人说的话</code></pre><hr><pre><code>&gt; 区块可嵌套&gt; &gt; 嵌套一层</code></pre><hr><pre><code>&gt; 区块中使用列表&gt; 1. 第一项&gt; 2. 第二项</code></pre><hr><pre><code>* 列表中使用区块需要在 &gt; 前添加缩进    &gt; 嵌套    &gt; &gt; 嵌套</code></pre><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><p>段落中的一个代码片段可以用反引号把它包起来 <code>printf()</code></p><pre><code>`printf()`</code></pre><hr><p>代码区块使用缩进,四个空格或一个制表符</p><pre><code>(Tab)代码段(Tab)code graph</code></pre><h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><pre><code>[链接名称](链接地址)&lt;链接地址&gt;</code></pre><p><a href="www.yqy1997.top">元气源的博客</a><br><a href="http://www.yqy1997.top">http://www.yqy1997.top</a></p><p>我们也可以通过变量设置链接</p><pre><code>此链接用link作为网址变量[yqy博客][link][link]: www.yqy1997.top</code></pre><p>此链接用link作为网址变量<a href="www.yqy1997.top">yqy博客</a></p><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><pre><code>![图片替代文字](图片地址)</code></pre><p><img src="https://pic.downk.cc/item/5ec779d6c2a9a83be57da9bf.gif" alt="bqb"></p><h2 id="其他技巧"><a href="#其他技巧" class="headerlink" title="其他技巧"></a>其他技巧</h2><ul><li>支持HTML元素</li><li>转义显示特定符号使用反斜杠 \ 进行表示转义</li><li>公式/表格直接网站转换</li></ul><h1 id="Markdown-常用网站"><a href="#Markdown-常用网站" class="headerlink" title="Markdown 常用网站"></a>Markdown 常用网站</h1><ol><li><a href="https://www.tablesgenerator.com/markdown_tables" target="_blank" rel="noopener">markdown 表格生成</a><table><thead><tr><th align="center">测试表格</th><th align="center">A</th><th align="center">B</th><th align="center">C</th></tr></thead><tbody><tr><td align="center">甲</td><td align="center">1</td><td align="center">2</td><td align="center">3</td></tr><tr><td align="center">乙</td><td align="center">4</td><td align="center">5</td><td align="center">6</td></tr></tbody></table></li><li><a href="http://latex.codecogs.com/eqneditor/editor.php" target="_blank" rel="noopener">Latex在线生成</a><br>$$<br>\sum \frac{3}{5}<br>$$<br>//注意要用两端都要用两个美元符号进行包裹,需要使用使在blog头增加 mathjax: true<br>$$<br>\begin{vmatrix}1 &amp; 2 &amp; 3\ 4 &amp;5 &amp;6 \ 7&amp;8 &amp; 9\end{vmatrix}<br>$$</li></ol><!-- rebuild by neat -->]]></content>
       
       
       <categories>
           
-          <category> testing </category>
+          <category> 工具 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Test </tag>
+            <tag> markdown </tag>
+            
+            <tag> tools </tag>
             
         </tags>
       
@@ -50,11 +31,38 @@
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="/hello-world.html"/>
-      <url>/hello-world.html</url>
+      <title>HexoTagPlugin的使用技巧</title>
+      <link href="/hexo_tag_plugin.html"/>
+      <url>/hexo_tag_plugin.html</url>
       
-        <content type="html"><![CDATA[<!-- build time:Sat May 23 2020 12:14:34 GMT+0800 (GMT+08:00) --><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><a id="more"></a><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p><!-- rebuild by neat -->]]></content>
+        <content type="html"><![CDATA[<!-- build time:Sat May 23 2020 16:37:58 GMT+0800 (GMT+08:00) --><blockquote class="blockquote-center"><p>本文章介绍了几种Hexo中TagPlugin的使用技巧</p></blockquote><a id="more"></a><pre><code>阅读全文&lt;!-- more --&gt;</code></pre><h3 id="tag-plugin"><a href="#tag-plugin" class="headerlink" title="tag plugin"></a>tag plugin</h3><ul><li><blockquote class="blockquote-center"><p>世间所有的相遇，都是久别重逢</p></blockquote><p>使文本居中引用-Centered Quote</p></li><li><div class="note default"><p>default 提示块标签</p></div><div class="note primary"><p>primary 提示块标签</p></div><div class="note success"><p>success 提示块标签</p></div><div class="note info"><p>info 提示块标签</p></div><div class="note warning"><p>warning 提示块标签</p></div><div class="note danger"><p>danger 提示块标签</p></div><p>提示块-Note</p></li><li><span class="label default">默认</span> <span class="label primary">主要</span> <span class="label success">成功</span> <span class="label info">信息</span> <span class="label warning">警告</span> <span class="label danger">危险</span> <span class="label success">这是成功的信息</span><p>标签-Label</p></li><li><div class="tabs" id="tab"><ul class="nav-tabs"><li class="tab active"><a href="#tab-1">选项卡1</a></li><li class="tab"><a href="#tab-2">选项卡2</a></li><li class="tab"><a href="#tab-3">A</a></li></ul><div class="tab-content"><div class="tab-pane active" id="tab-1"><p><strong>选项卡 1</strong></p></div><div class="tab-pane" id="tab-2"><p><strong>选项卡 2</strong></p></div><div class="tab-pane" id="tab-3"><p><strong>选项卡 3</strong> 名字为A</p></div></div></div><p>选项卡-Tabs</p></li></ul><ul><li>% button url, text, icon [class], [title] % ###左右加花括号<ul><li>url 绝对/相对URL</li><li>text 按钮文字</li><li>icon FontAwesome图标名称</li><li>clasee FontAwesome 类：fa-fw | fa-lg | fa-2x | fa-3x | fa-4x | fa-5X ，可选参数</li><li>title 鼠标悬停时的工具提示<div><a class="btn" href="http://www.yqy1997.top/" title="go back to main page"><i class="fa fa-home fa-fw"></i>首页</a></div>/n 例子<div class="text-center"><div><a class="btn" href="http://www.yqy1997.top/" title="这是小丁的个人博客首页"><i class="fa fa-home fa-fw"></i>首页</a> <a class="btn" href="http://www.yqy1997.top/" title="豆瓣电影"><i class="fa fa-film fa-fw"></i>观影</a> <a class="btn" href="http://www.yqy1997.top/" title="豆瓣读书"><i class="fa fa-book fa-fw"></i>阅读</a></div></div>/n 居中</li></ul></li></ul><!-- rebuild by neat -->]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> plugin </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>待整理区域</title>
+      <link href="/messy.html"/>
+      <url>/messy.html</url>
+      
+        <content type="html"><![CDATA[<!-- build time:Sat May 23 2020 16:37:58 GMT+0800 (GMT+08:00) --><p>$$<br>\sum \frac{3}{5}<br>$$</p><p><strong>asdfkljg</strong></p><h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><pre><code>def adef bdef c</code></pre><a id="more"></a><h2 id="http-latex-codecogs-com-eqneditor-editor-php-在线Latex编辑器"><a href="#http-latex-codecogs-com-eqneditor-editor-php-在线Latex编辑器" class="headerlink" title="http://latex.codecogs.com/eqneditor/editor.php 在线Latex编辑器"></a><a href="http://latex.codecogs.com/eqneditor/editor.php" target="_blank" rel="noopener">http://latex.codecogs.com/eqneditor/editor.php</a> <strong>在线Latex编辑器</strong></h2><p><img src="https://pic.downk.cc/item/5ec779d6c2a9a83be57da9bf.gif" alt=""></p><h2 id="https-www-superbed-cn-聚合图床"><a href="#https-www-superbed-cn-聚合图床" class="headerlink" title="https://www.superbed.cn/  聚合图床"></a><a href="https://www.superbed.cn/" target="_blank" rel="noopener">https://www.superbed.cn/</a> <strong>聚合图床</strong></h2><h2 id="https-www-tablesgenerator-com-markdown-tables-markdown表格生成"><a href="#https-www-tablesgenerator-com-markdown-tables-markdown表格生成" class="headerlink" title="https://www.tablesgenerator.com/markdown_tables markdown表格生成"></a><a href="https://www.tablesgenerator.com/markdown_tables" target="_blank" rel="noopener">https://www.tablesgenerator.com/markdown_tables</a> markdown表格生成</h2><!-- rebuild by neat -->]]></content>
       
       
       <categories>
