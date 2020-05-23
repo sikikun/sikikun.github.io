@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.yqy1997.top/2020/05/22/hello-world/</loc>
+    <loc>http://www.yqy1997.top/hello-world.html</loc>
     <lastmod>2020-05-22</lastmod>
   </url>  <url>
-    <loc>http://www.yqy1997.top/2020/05/22/hexo_tag_plugin/</loc>
+    <loc>http://www.yqy1997.top/hexo_tag_plugin.html</loc>
     <lastmod>2020-05-22</lastmod>
   </url>  <url>
-    <loc>http://www.yqy1997.top/2020/05/22/wtf/</loc>
+    <loc>http://www.yqy1997.top/wtf.html</loc>
     <lastmod>2020-05-22</lastmod>
   </url>
 </urlset>
