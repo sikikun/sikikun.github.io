@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>罗德里德斯旋转公式</title>
+      <link href="/rodrigues.html"/>
+      <url>/rodrigues.html</url>
+      
+        <content type="html"><![CDATA[<!-- build time:Tue May 26 2020 00:58:17 GMT+0800 (GMT+08:00) --><blockquote class="blockquote-center"><p>本文是图形学中罗德里德斯旋转公式的证明</p></blockquote><a id="more"></a><p><img src="https://pic.downk.cc/item/5ecbf8f6c2a9a83be5f10998.jpg" alt=""><br><img src="https://pic.downk.cc/item/5ecbf903c2a9a83be5f11a7a.jpg" alt=""></p><!-- rebuild by neat -->]]></content>
+      
+      
+      <categories>
+          
+          <category> 证明 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> graphics </tag>
+            
+            <tag> proof </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>现代计算机图形学入门04-06</title>
       <link href="/graphics2.html"/>
       <url>/graphics2.html</url>
